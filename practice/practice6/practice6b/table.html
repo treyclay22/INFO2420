@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">	
+<title>Trey Clayton HTML Practice 6b</title>
+
+<style>
+
+td{
+  border: 1px solid gray;
+  border-spacing: 5px;
+  padding:5px;
+  }
+th{
+  border: 1px solid gray;
+  border-spacing: 5px;
+  padding:5px;
+  }
+table{
+	 border: 1px solid gray;
+     border-spacing: 5px;
+	 padding: 5px;
+	 }
+.topcaption{
+		color: #003300;
+	    font-family: Arial, Helvetica, sans-serif;
+		font-weight: bold
+	   }
+.centerdiv{
+		  text-align: center;
+		  width: 550px;
+		  }
+.daysheader{
+		   background-color: #99FF66
+		   }
+.classcol{
+		     background-color: #CCCCCC;
+			 width: 25%;
+		     }	
+</style>
+</head>
+<body>
+
+<hr>
+
+<div class="centerdiv">
+   <table>
+   
+   <caption class="topcaption">My Class Schedule</caption>
+   
+	<colgroup span="1" class="classcol">
+	</colgroup>
+	
+	<colgroup span=5>
+	</colgroup>
+	
+   <tr>
+      <th>Courses</th>
+	  <th class="daysheader">Monday</th>
+	  <th class="daysheader">Tuesday</th>
+	  <th class="daysheader">Wednesday</th>
+	  <th class="daysheader">Thursday</th>
+	  <th class="daysheader">Friday</th>
+   </tr>
+
+   
+   <tr>
+      <th>INFO 1120</th>
+	  <td></td>
+	  <td>9-11</td>
+	  <td></td>
+	  <td>9-11</td>
+	  <td rowspan="2"></td>
+   </tr>
+   
+   <tr>
+      <th>MATH 1010</th>
+	  <td colspan="4">12-1</td>
+   </tr>
+   
+   <tr>
+      <th>INFO 2420</th>
+	  <td colspan="5">Online Available 24/7</td>
+   </tr>
+	
+   </table>
+</div>
+
+<hr>
+
+</body>
+</html>
+
