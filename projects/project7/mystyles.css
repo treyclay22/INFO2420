@@ -227,25 +227,24 @@ footer a:hover {
   box-sizing: border-box;	
 }
 
-
-	#thumbs, #image {
+#thumbs, #image {
 		width: 900px;
 		text-align: center;
 		margin: 0 auto 0 auto;
 		color: #000;
 	}
 
-	#thumbs {
+#thumbs {
 		margin-top: 10px;
 	}
 
 			
-	#thumbs img {
+#thumbs img {
 		border: solid 1px #AE4934;
 		margin: 5px;
 	}
 
-	#image{
+#image{
 		height:500px;
 	}
 
@@ -253,4 +252,3 @@ footer a:hover {
 		font-style:italic;
 	}
 
-}
