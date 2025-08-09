@@ -111,6 +111,12 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+.tributeheader{
+  font-size: 2rem;
+  text-align: center;
+  color: #CC2C1F;
+  margin-top: 30px;
+}
 .img-left {
   float: left;
   margin-right: 1em;
